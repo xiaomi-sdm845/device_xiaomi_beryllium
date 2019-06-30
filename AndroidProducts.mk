@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg.mk
+    $(LOCAL_DIR)/revengeos_beryllium.mk

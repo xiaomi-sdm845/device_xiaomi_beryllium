@@ -6,11 +6,19 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+IS_PHONE := true
+BUILD_GAPPS := false
+TARGET_DENSITY := xxxhdpi
+TARGET_BOOT_ANIMATION_RES := 1440
+REVENGEOS_BUILDTYPE := OFFICIAL
+
+# Inherit some common RevengeOS stuff.
+$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/revengeos/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bootleg_beryllium
+PRODUCT_NAME := revengeos_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Poco F1
