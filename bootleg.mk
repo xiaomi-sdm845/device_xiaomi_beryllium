@@ -9,6 +9,9 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
+# Inherit from custom vendor
+$(call inherit-product, vendor/xiaomi/ANXCamera/beryllium.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := bootleg_beryllium
 PRODUCT_DEVICE := beryllium
