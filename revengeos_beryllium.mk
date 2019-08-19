@@ -8,7 +8,7 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common AOSP stuff.
 IS_PHONE := true
-BUILD_GAPPS := false
+TARGET_GAPPS_ARCH := arm64
 TARGET_DENSITY := xxxhdpi
 TARGET_BOOT_ANIMATION_RES := 1440
 REVENGEOS_BUILDTYPE := OFFICIAL
