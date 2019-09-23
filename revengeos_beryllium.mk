@@ -7,7 +7,14 @@
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common Lineage stuff.
+IS_PHONE := true
+TARGET_DENSITY := xxxhdpi
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+
 $(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/gapps/config.mk)
+$(call inherit-product, vendor/pixelstyle/config.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := revengeos_beryllium
