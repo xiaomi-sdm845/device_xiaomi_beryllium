@@ -67,6 +67,7 @@ vendor/etc/camera/watermark_font_2300_3199.dat
 vendor/lib64/libcamxfdalgov7.so
 vendor/lib64/libcamxfdengine.so
 vendor/lib64/libcamxstatscore.so
+vendor/lib64/libdng_sdk.so
 vendor/lib64/libremosaic_daemon.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libmdsprpc.so
@@ -169,6 +170,7 @@ vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/libc++_shared.so
 vendor/lib/lib_denoiser3.so
+vendor/lib/libdng_sdk.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libft2vendor.so
 vendor/lib/libmibokeh_845.so
@@ -240,9 +242,11 @@ vendor/etc/xtwifi.conf
 vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so
 vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so
 vendor/lib64/libaoa.so
+vendor/lib64/libbatching.so
 vendor/lib64/libcacertclient.so
 vendor/lib64/libdataitems.so
 vendor/lib64/libgdtap.so
+vendor/lib64/libgeofencing.so
 vendor/lib64/libgnsspps.so
 vendor/lib64/libgnss.so
 vendor/lib64/libgps.utils.so
@@ -269,9 +273,11 @@ vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so
 vendor/lib/hw/vendor.qti.gnss@3.0-impl.so
 vendor/lib/libaoa.so
+vendor/lib/libbatching.so
 vendor/lib/libcacertclient.so
 vendor/lib/libdataitems.so
 vendor/lib/libgdtap.so
+vendor/lib/libgeofencing.so
 vendor/lib/libgnsspps.so
 vendor/lib/libgnss.so
 vendor/lib/libgps.utils.so
